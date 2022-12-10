@@ -22,7 +22,7 @@ public class Employee {
     String designation;
     String department;
     String qualification;
-    Employee(){}
+    public Employee(){}
 
     public Employee(int empId, String empName, String contact, String email, String address, float age, LocalDate dob, LocalDate doj, LocalDate doe, double salary, String paymentMethod, String designation, String department, String qualification) {
         this.empId = empId;
